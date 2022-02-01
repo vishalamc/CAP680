@@ -12,10 +12,7 @@ class Transaction
 		{
 			balanceAmount=balanceAmount-amt;
 		}
-		else
-		{
-			System.out.println("Not sufficient balance");
-		}
+		
 	return balanceAmount;
 	}
 	public double checkBalance()
